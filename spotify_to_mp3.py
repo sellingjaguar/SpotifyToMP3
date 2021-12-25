@@ -29,8 +29,7 @@ print('''
 ''')
 
 #get user id and display name
-#user_page = input("User profile link (should look like 'https://open.spotify.com/user/something'):\n-->")
-user_page = "https://open.spotify.com/user/gmq0utoa3xontktj7uf5cefw6"
+user_page = input("User profile link (should look like 'https://open.spotify.com/user/something'):\n-->")
 
 sHelper.setUserPage(user_page)
 
